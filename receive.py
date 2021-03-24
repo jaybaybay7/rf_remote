@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BOARD)
 
-GPIO.setup(16, GPIO.IN, initial=GPIO.LOW)
+GPIO.setup(16, GPIO.IN)
 GPIO.setup(36,GPIO.OUT, initial=GPIO.LOW)
 
 while True:
