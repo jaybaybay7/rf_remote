@@ -10,6 +10,8 @@ while True:
     print(GPIO.input(16))
     if(GPIO.input(16)== 1):
         GPIO.output(36,1)
+    if(GPIO.input(16) == 0):
+        GPIO.output(36,0)
     time.sleep(1)
 
 
